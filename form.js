@@ -39,11 +39,10 @@ app.get('/submit', function(req, res) {
        console.log(err);
         }
  });
-/*//get
-app.get('/', function(req, res) {
-    res.sendFile('index.ejs',{root:__dirname});
-});
-*/
+//ajout
+app.get('/submit/add')
+
+
 //post
 app.post('/submit',function(req,res){
     console.log(req.body);
