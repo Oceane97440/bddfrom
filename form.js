@@ -27,7 +27,7 @@ module.exports = connection;
 
 
 
-app.get('/submit', function(req, res) {
+app.get('/submit', function(req, res) {});
   // exécuté lorsqu'est appelé form.ejs
 
   res.render('index.ejs');
@@ -39,8 +39,15 @@ app.get('/submit', function(req, res) {
        console.log(err);
         }
  });
+
+
+
+
+
 //ajout
-app.get('/submit/add')
+/* app.get('/submit/add',function (req,res) {
+  console.log
+})
 
 
 //post
@@ -56,7 +63,7 @@ app.post('/submit',function(req,res){
     connection.end();
 });
 
-
+*/
 
 
 
